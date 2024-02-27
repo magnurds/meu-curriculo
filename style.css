@@ -1,0 +1,38 @@
+body {
+    width: 80vw; /* 90vw: 90% da viewport width */
+    margin: auto; /* margem com ajuste automático */
+    font-size: 20px; /* o padrão é 16px */
+}
+
+section {
+    background-color: lightgrey;
+    padding: 40px; /* preenchimento [interno] */   
+}
+
+section#apresentacao {
+    background-color: rgb(22, 185, 90);
+}
+
+section#formacaoAcademica {
+    background-color: rgb(23, 160, 245);
+}
+
+section#experienciaProfissional {
+    background-color: aquamarine;
+}
+.titilo-secao {
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section#competenciasTecnicas {
+    background-color: bisque;
+}
+
+section#softSkills {
+    background-color: blueviolet;
+}
+
+section#idiomas {
+    background-color: azure;
+}
+
