@@ -1,42 +1,53 @@
 body {
     width: 80vw; 
     margin: auto;
-    font-size: 20px; 
+    font-size: 20px;
+   }
+    
 
 
-    section {
-        background-color: azure;
+section h2 {
+        background-color: aquamarine;
         padding: 40px; 
-       line-break: 1.5;
+       line-break: 2;
+       border-style: solid;
+       
  } 
     
     
 section#apresentacao {
-    background-color: rgb(143, 219, 175);
-   
+    
+       
 }
 
 section#formacaoAcademica { 
-    background-color: rgb(112, 170, 206);
+    background-color: aquamarine;
 }
 
 section#experienciaProfissional {
     background-color: aquamarine;
 }
+
+section#tecnologias {
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+
+
 .titulo-secao {
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 section#competenciasTecnicas {
-    background-color: bisque;
+    background-color: aquamarine;
 }
 
 section#softSkills {
-    background-color: rgb(143, 131, 155);
+    background-color: aquamarine;
 }
 
 section#idiomas {
-    background-color: rgb(126, 239, 98);
+    background-color: aquamarine;
 }
     
-}
