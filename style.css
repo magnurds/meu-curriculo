@@ -22,6 +22,29 @@ cm -> centímetro */
 :root { /* root -> elemento raiz (html), mais alta hierarquia */
     font-size: 16px; /* tamanho base do rem -> 1rem = 16px */
     scroll-behavior: smooth; /* comportamento da rolagem: suave */
+    
+  --planofundo: #ffffff;
+  --cor-primaria-texto:#353535;
+  --cor-fundo-tags:#bebebe;
+  --cor-fundo-apresentação:#ecb3b3;
+  --cor-fundo-formacaoAcademica:#fff2e3;
+  --cor-fundo-expereicuaProfissional:#fff2e3; 
+ 
+}
+
+[data-tema="light"] {
+    --plano-fundo:#ffffff;
+    --cor-primaria-texto:#a39494;
+    --cor-fundo-tags:#bebebe;
+    
+}
+
+[data-tema="dark"] {
+--plano-fundo:#362485;
+--cor-primaria-texto: #353535;
+
+
+
 }
 
 body {
@@ -30,6 +53,8 @@ body {
     font-size: 20px; /* o padrão é 16px */
     font-family: "DM Sans", sans-serif;
     font-weight: 200;
+    background-color: var(--plano-fundo);
+    color: var(--cor-primaria-texto);
 }
 
 .nome-curriculo {
@@ -39,21 +64,32 @@ body {
 }
 
 section {
-    padding: 40px; /* preenchimento [interno] */
+    padding: 40px 0; /* preenchimento [interno] */
 }
 
 #apresentacao {
-    background-color: lightcoral;
+    background-color: rgb(225, 210, 210);
 }
 
 #formacaoAcademica {
-    background-color: lightgreen;
+    background-color: rgb(225, 230, 225);
 }
 
 #experienciaProfissional {
-    background-color: bisque;
+    background-color: rgb(240, 233, 224);
 }
 
+#competenciasTecnicas {
+    background-color: rgb(167, 104, 104);
+}
+
+#softSkills {
+   background-color: rgb(225, 230, 225);
+}
+
+#idiomasQueEuFalo {
+    background-color: rgb(157, 177, 156);
+}
 #tecnologias {
     display: flex; /* exibe como caixa flexível (Flexbox) */
     /* Flexbox tem várias propriedades que trabalham junto */
