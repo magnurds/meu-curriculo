@@ -40,16 +40,17 @@ cm -> centímetro */
     --corBordaPadrao:#374148;
 }
 
+
+
 [data-tema="dark"] {
 --plano-fundo:#362485;
 --cor-primaria-texto: #aaa2a2;
 --cor-fundo-tags:#bebebe;
 --corDoTituloSecao:#f8f8ab;
 --corBordaPadrao:#fad000;
-
-
-
 }
+
+
 
 body {
     width: 80vw; /* 80vw: 80% da viewport width */
@@ -61,15 +62,19 @@ body {
     color: var(--cor-primaria-texto);
 }
 
+
+
 .nome-curriculo {
     font-family: "Anta", sans-serif;
     font-size: 3rem;
     margin: 2rem 1rem 3rem 4rem; /* shorthand para margin-top margin-right margin-bottom margin-left*/
 }
 
+
 section {
     padding: 40px 0; /* preenchimento [interno] */
 }
+
 
 #apresentacao {
     background-color: rgb(225, 210, 210);
@@ -84,7 +89,7 @@ section {
 }
 
 #competenciasTecnicas {
-    background-color: rgb(167, 104, 104);
+    background-color: rgb(225, 210, 210);
 }
 
 #softSkills {
@@ -92,8 +97,11 @@ section {
 }
 
 #idiomasQueEuFalo {
-    background-color: rgb(157, 177, 156);
+    background-color: rgb(240, 233, 224);
 }
+
+
+
 #tecnologias {
     display: flex; /* exibe como caixa flexível (Flexbox) */
     /* Flexbox tem várias propriedades que trabalham junto */
@@ -146,16 +154,18 @@ h3 {
 .autor {
     font-style: oblique;
     font-weight: 600;
+    font-size: 80%;
     
 }
 
 
 .continue-lendo {
-    background-color: blueviolet;
-    padding: 5rem;
-    margin-top: 1rem
-    
-     }
+    background-color: aqua;
+    padding:5rem;
+    margin-top: 1rem;
+    border-radius: 10px; 
+          
+ }
 
 
 
@@ -164,6 +174,7 @@ h3 {
     text-decoration: none;
 }
 
-article p {
+.article p {
     text-align: justify;
+    margin-bottom: 1rem;
 }
