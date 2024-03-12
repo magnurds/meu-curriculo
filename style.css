@@ -34,14 +34,18 @@ cm -> centímetro */
 
 [data-tema="light"] {
     --plano-fundo:#ffffff;
-    --cor-primaria-texto:#a39494;
+    --cor-primaria-texto:#7a2121;
     --cor-fundo-tags:#bebebe;
-    
+    --corDoTituloSecao:#e1955a;
+    --corBordaPadrao:#374148;
 }
 
 [data-tema="dark"] {
 --plano-fundo:#362485;
---cor-primaria-texto: #353535;
+--cor-primaria-texto: #aaa2a2;
+--cor-fundo-tags:#bebebe;
+--corDoTituloSecao:#f8f8ab;
+--corBordaPadrao:#fad000;
 
 
 
