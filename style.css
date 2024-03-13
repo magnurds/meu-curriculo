@@ -88,7 +88,7 @@ section {
     background-color: rgb(240, 233, 224);
 }
 
-#competenciasTecnicas {
+#hardSkills{
     background-color: rgb(225, 210, 210);
 }
 
@@ -96,7 +96,7 @@ section {
    background-color: rgb(225, 230, 225);
 }
 
-#idiomasQueEuFalo {
+#idiomas {
     background-color: rgb(240, 233, 224);
 }
 
@@ -161,7 +161,7 @@ h3 {
 
 .continue-lendo {
     background-color: aqua;
-    padding:5rem;
+    padding:5rem  1rem; 
     margin-top: 1rem;
     border-radius: 10px; 
           
